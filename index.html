@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="icon" type="image/png" href="img/logo.img.webp">
+    <title>Verifica Par</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img class="logo" src="img/logo.img.webp" alt="Logo do site">
+            <h1 class="titulo">Par ou Impar?</h1>
+        </div>
+    </header>
+
+    <div class="input_container">
+        <label class="comando" for="numero">Digite um número:</label>
+        <input class="input" type="number" id="numero"  placeholder="Ex: 42">
+        <button class="botao" onclick="verifica_par()">Verificar</button>
+        <button class="resultado" id="resultado"></button>   
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
